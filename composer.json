@@ -9,5 +9,8 @@
       "HazelCodes\\ReportBuilder\\": "src/",
       "Reports\\": "Reports/"
     }
+  },
+  "require": {
+    "phpdocumentor/phpdocumentor": "2.*"
   }
 }

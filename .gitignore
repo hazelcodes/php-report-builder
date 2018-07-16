@@ -2,3 +2,4 @@ vendor/
 filename.csv
 .vagrant/
 .gitconfig
+output/

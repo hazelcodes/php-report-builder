@@ -17,7 +17,7 @@ class CSV implements Importer {
   }
 
   public function process() : Collection {
-    if (file_exists($this->filename) && $this->data->empty()) {
+    if (file_exists($this->filename) && $this->data->isEmpty()) {
       if (($file = fopen($this->filename, 'r')) !== false) {
         $firstRow = true;
         while (($data = fgetcsv($file, 1000, ',')) !== false) {
