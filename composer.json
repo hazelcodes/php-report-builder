@@ -1,0 +1,13 @@
+{
+  "name": "hazelcodes/report-builder", 
+  "type": "library", 
+  "description": "Package for building reports",
+  "homepage": "https://github.com/hazelcodes/report-builder",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "HazelCodes\\ReportBuilder\\": "src/",
+      "Reports\\": "Reports/"
+    }
+  }
+}
