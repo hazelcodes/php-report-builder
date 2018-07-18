@@ -12,19 +12,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hazelcodes/php-report-builder.git",
-                "reference": "ecf4749bfeddb92f7f64b7c8417733dd0b389805"
+                "reference": "e1cfd41dc021d80704769381e3f1bfc47ac46538"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hazelcodes/php-report-builder/zipball/ecf4749bfeddb92f7f64b7c8417733dd0b389805",
-                "reference": "ecf4749bfeddb92f7f64b7c8417733dd0b389805",
+                "url": "https://api.github.com/repos/hazelcodes/php-report-builder/zipball/e1cfd41dc021d80704769381e3f1bfc47ac46538",
+                "reference": "e1cfd41dc021d80704769381e3f1bfc47ac46538",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.22"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "HazelCodes\\ReportBuilder\\": "src/",
-                    "Reports\\": "Reports/"
+                    "ReportBuilder\\": "src/"
                 }
             },
             "license": [
@@ -36,7 +38,7 @@
                 "source": "https://github.com/hazelcodes/php-report-builder/tree/master",
                 "issues": "https://github.com/hazelcodes/php-report-builder/issues"
             },
-            "time": "2018-07-16T02:57:07+00:00"
+            "time": "2018-07-18T04:12:22+00:00"
         }
     ],
     "packages-dev": [],
