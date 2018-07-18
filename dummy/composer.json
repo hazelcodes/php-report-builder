@@ -1,0 +1,17 @@
+{
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/hazelcodes/php-report-builder"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Reports\\": "Reports/"
+    }
+  },
+  "require": {
+    "php": ">=7.0.22",
+    "hazelcodes/report-builder": "dev-master"
+  }
+}

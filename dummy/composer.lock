@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c52a51bbeb6e3f9dac4bdb1c73e5cbdb",
+    "packages": [
+        {
+            "name": "hazelcodes/report-builder",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hazelcodes/php-report-builder.git",
+                "reference": "ecf4749bfeddb92f7f64b7c8417733dd0b389805"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hazelcodes/php-report-builder/zipball/ecf4749bfeddb92f7f64b7c8417733dd0b389805",
+                "reference": "ecf4749bfeddb92f7f64b7c8417733dd0b389805",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "HazelCodes\\ReportBuilder\\": "src/",
+                    "Reports\\": "Reports/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Package for building reports",
+            "homepage": "https://github.com/hazelcodes/php-report-builder",
+            "support": {
+                "source": "https://github.com/hazelcodes/php-report-builder/tree/master",
+                "issues": "https://github.com/hazelcodes/php-report-builder/issues"
+            },
+            "time": "2018-07-16T02:57:07+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "hazelcodes/report-builder": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0.22"
+    },
+    "platform-dev": []
+}

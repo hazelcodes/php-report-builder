@@ -6,11 +6,10 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "HazelCodes\\ReportBuilder\\": "src/",
-      "Reports\\": "Reports/"
+      "ReportBuilder\\": "src/"
     }
   },
-  "require": {
-    "phpdocumentor/phpdocumentor": "2.*"
+  "require" : {
+    "php": ">=7.0.22"
   }
 }
