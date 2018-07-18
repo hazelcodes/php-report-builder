@@ -3,4 +3,4 @@ filename.csv
 .vagrant/
 .gitconfig
 output/
-dummy/vendor/
+dummy/

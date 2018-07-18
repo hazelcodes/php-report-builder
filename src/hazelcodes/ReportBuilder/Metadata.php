@@ -2,7 +2,7 @@
 
 namespace ReportBuilder;
 
-use ReportBuilder\Shared\UUID;
+use HazelCodes\ReportBuilder\Shared\UUID;
 
 class Metadata extends \ArrayObject {
   use UUID;

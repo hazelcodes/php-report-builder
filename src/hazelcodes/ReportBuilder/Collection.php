@@ -5,7 +5,7 @@
 
 namespace ReportBuilder;
 
-use ReportBuilder\Shared\UUID;
+use HazelCodes\ReportBuilder\Shared\UUID;
 
 class Collection extends \ArrayObject {
   use UUID;

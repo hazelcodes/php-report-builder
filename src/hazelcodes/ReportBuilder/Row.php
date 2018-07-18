@@ -2,7 +2,7 @@
 
 namespace ReportBuilder;
 
-use ReportBuilder\Collection;
+use HazelCodes\ReportBuilder\Collection;
 
 class Row extends Collection {
   /**

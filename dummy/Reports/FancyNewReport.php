@@ -2,11 +2,11 @@
 
 namespace Reports;
 
-use \ReportBuilder\Report;
-use \ReportBuilder\Row;
-use \ReportBuilder\Metadata;
-use \ReportBuilder\Importers\CSV;
-use \ReportBuilder\Exporters\HTML;
+use \HazelCodes\ReportBuilder\Report;
+use \HazelCodes\ReportBuilder\Row;
+use \HazelCodes\ReportBuilder\Metadata;
+use \HazelCodes\ReportBuilder\Importers\CSV;
+use \HazelCodes\ReportBuilder\Exporters\HTML;
 
 class FancyNewReport extends Report {
   public $title;
